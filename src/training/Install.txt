@@ -1,0 +1,10 @@
+install java8 alternative
+export TERM=xterm-color
+./bin/servicemix
+feature:install web console
+feature:install jolokia
+download hawtio
+bundle:install -s mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-httpclient/3.1_7
+
+
+
