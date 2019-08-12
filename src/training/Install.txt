@@ -1,10 +1,6 @@
-install java8 alternative
+sudo apt install openjdk-8-jdk
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 export TERM=xterm-color
-./bin/servicemix
-feature:install web console
+feature:install webconsole
 feature:install jolokia
-download hawtio
 bundle:install -s mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.commons-httpclient/3.1_7
-
-
-
